@@ -1,0 +1,20 @@
+{
+  "name": "location-service",
+  "version": "1.0.0",
+  "description": "\"service of location manage\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mao1304",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "http": "^0.0.1-security",
+    "location-service": "file:",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0"
+  }
+}
